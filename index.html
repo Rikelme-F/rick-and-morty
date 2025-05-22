@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+  <title>Rick and Morty</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <img class="logo-img" src="img/Logo3.png" alt="Rick" />
+    </div>
+  </header>
+
+  <main>
+    <section id="historia" class="main-historia">
+      <div class="container">
+        <h2>A História de Rick and Morty</h2>
+        <p>Rick and Morty é uma série animada de comédia e ficção científica que acompanha as aventuras perigosas e surreais do cientista alcoólatra Rick Sanchez e seu neto Morty Smith. A dupla viaja entre dimensões e planetas em aventuras que misturam humor negro com conceitos científicos complexos.</p>
+        <p>Criada por Justin Roiland e Dan Harmon, a série estreou em 2013 no Adult Swim e rapidamente se tornou um fenômeno cultural, conhecida por sua abordagem única de temas existenciais, multiverso e sua crítica ácida à sociedade moderna, tudo isso enquanto mantém um humor absurdo e imprevisível.</p>
+        <p>Com uma mitologia complexa que se desenvolve ao longo das temporadas, Rick and Morty explora não apenas o espaço sideral, mas também as dinâmicas familiares disfuncionais e as consequências das ações egoístas de Rick em múltiplas realidades.</p>
+        <p>A série é famosa por seu estilo visual único, diálogos rápidos e referências à cultura pop e científica, conquistando uma base de fãs dedicada e recebendo aclamação da crítica por sua originalidade e profundidade filosófica disfarçada de animação absurda.</p>
+      </div>
+    </section>
+    <h1>Loja Virtual</h1>
+ 
+    <div id="logo-carrinho">
+        🛒
+        <span id="contador-carrinho">0</span>
+    </div>
+ 
+    <div class="container">
+        <div class="produto">
+            <img src="img/camisa1.png" alt="Blusa" />
+            <h3>Blusa de frio <br>Rick and Morty</h3>
+            <p>R$ 50,00</p> <br>
+            <button onclick="adicionarAoCarrinho('Blusa', 50)">Adicionar ao Carrinho</button>
+        </div>
+ 
+        <div class="produto">
+            <img src="img/camisa2.png" alt="Blusa" />
+            <h3>Blusa de frio <br>Rick and Morty</h3>
+            <p>R$ 75,00</p> <br>
+            <button onclick="adicionarAoCarrinho('Blusa', 75)">Adicionar ao Carrinho</button>
+        </div>
+ 
+        <div class="produto">
+            <img src="img/chinelo.png" alt="Chinelo" />
+            <h3>Chinelo <br>Rick and Morty</h3>
+            <p>R$ 100,00</p> <br>
+            <button onclick="adicionarAoCarrinho('Chinelo', 100)">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+ 
+    <div class="carrinho" id="carrinho">
+        <h2>Carrinho</h2> <br>
+        <ul id="lista-carrinho"></ul>
+        <p>Total: R$ <span id="total">0</span>,00</p> <br>
+ 
+        <button id="limpar-btn">Limpar Pedidos</button>
+        <button id="finalizar-btn">Finalizar Compra</button>
+    </div>
+ 
+    <script src="script.js"></script> <br>
+    <footer class="footer">
+        <p>Ficou alguma dúvida? Entre em contato: Rickandmorty@rickandmorty.com.br <br> © Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+  </main>
+</body>
+</html>
